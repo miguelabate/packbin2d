@@ -160,5 +160,5 @@ pub fn pack_bin<T: Box2DTrait>(boxes: &mut Vec<T>) -> (f32, f32) {
             final_height = a_box.get_h() + a_box.get_y();
         }
     }
-    (max_width, final_height)
+    (start_width, final_height)
 }
